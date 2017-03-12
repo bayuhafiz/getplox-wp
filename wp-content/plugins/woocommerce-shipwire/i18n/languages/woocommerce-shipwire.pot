@@ -1,0 +1,722 @@
+# Copyright (C) 2016 WooThemes / SkyVerge
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Shipwire 2.0.0\n"
+"Report-Msgid-Bugs-To: https://support.woothemes.com/hc/\n"
+"POT-Creation-Date: 2014-06-15 22:41:30+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/admin/class-wc-shipwire-admin.php:57
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:58
+#: includes/admin/class-wc-shipwire-admin.php:256
+msgid "Update"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:151
+#: includes/shipping/class-wc-shipwire-shipping-method.php:95
+#: includes/shipping/class-wc-shipwire-shipping-method.php:102
+msgid "Shipwire"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:258
+msgid "Next inventory update at : %s"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:259
+msgid "Update Inventory"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:261
+msgid "Next tracking update at : %s"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:262
+#: includes/admin/class-wc-shipwire-admin.php:600
+msgid "Update Tracking"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:286
+msgid "Clear History"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:309
+#: includes/class-wc-shipwire-product.php:254
+msgid "Updated inventory for %d product."
+msgid_plural "Updated inventory for %d products."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-wc-shipwire-admin.php:314
+#: includes/class-wc-shipwire-order.php:379
+msgid "Updated tracking information for %d order."
+msgid_plural "Updated tracking information for %d orders."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-wc-shipwire-admin.php:319
+msgid "History deleted."
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:323
+msgid "Nothing to do."
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:362
+#: includes/admin/class-wc-shipwire-admin.php:378
+#: includes/admin/class-wc-shipwire-admin.php:421
+#: includes/admin/class-wc-shipwire-admin.php:425
+#: includes/admin/class-wc-shipwire-admin.php:449
+#: includes/admin/class-wc-shipwire-admin.php:454
+#: includes/admin/class-wc-shipwire-admin.php:459
+msgid "N/A"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:392
+msgid "Shipwire Order Information"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:413
+msgid ""
+"Shipwire order information will be displayed here once this order is "
+"exported."
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:420
+msgid "Order ID"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:424
+msgid "Transaction ID"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:428
+msgid "Status"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:437
+msgid "Holds"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:448
+msgid "Warehouse"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:453
+msgid "Ship via"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:458
+msgid "Expected Delivery"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:468
+msgid "Package %s"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:476
+msgid "Carrier"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:480
+msgid "Tracking Number"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:510
+#: includes/admin/class-wc-shipwire-admin.php:599
+msgid "Export to Shipwire"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:533
+msgid "Shipwire Status"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:574
+msgid "Show all Shipwire orders"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:671
+msgid "Update Shipwire tracking info"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:675
+msgid "Export order to Shipwire"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:713
+msgid "Serial Number:"
+msgid_plural "Serial Numbers:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-wc-shipwire-admin.php:731
+#: includes/admin/class-wc-shipwire-admin.php:759
+msgid "Shipwire Managed?"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:732
+msgid ""
+"Enable this if this product is listed in Shipwire. This will sync inventory "
+"and provide shipping rates for this product from Shipwire."
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:764
+msgid "— No Change —"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:765
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:766
+msgid "No"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:828
+msgid "General"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:832
+msgid "API Username"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:833
+msgid "Log into your Shipwire Account to find your API username and password."
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:839
+msgid "API Password"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:845
+msgid "Environment"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:846
+msgid ""
+"Environment to use for API requests. Use Sandbox only if you have created a "
+"sandbox account."
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:850
+msgid "Production"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:851
+msgid "Sandbox"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:857
+msgid "Debug Mode"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:858
+msgid "Enable debug mode. "
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:859
+msgid ""
+"Log API requests/responses and errors to the WooCommerce log. Only enable "
+"if you are having issues."
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:866
+msgid "Fulfillment"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:870
+msgid "Automatically Export Orders"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:871
+msgid "Enable to automatically submit orders to Shipwire upon successful payment."
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:877
+msgid "Automatically Export Orders Only for These Countries"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:878
+msgid ""
+"Orders shipping to these countries will be automatically exported to "
+"Shipwire, all others will need to be exported manually. Leave blank to "
+"automatically export all orders."
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:886
+msgid "Automatically Complete Shipped Orders"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:887
+msgid ""
+"Enable to automatically mark orders as \"completed\" when Shipwire "
+"indicates they have been shipped."
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:894
+msgid "Inventory"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:898
+msgid "Automatically Update Inventory"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:899
+msgid "Enable to automatically update inventory stock."
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:907
+#: includes/admin/class-wc-shipwire-admin.php:955
+msgid "Update Interval (in minutes)"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:908
+msgid "All inventory for Shipwire managed products will update on this interval."
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:916
+msgid "Include Pending Inventory in Stock"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:917
+msgid ""
+"Enable to include inventory listed as \"Pending\" in Shipwire as valid "
+"inventory in WooCommerce."
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:924
+msgid "Include Inventory from Warehouse Locations"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:925
+msgid ""
+"Select the warehouse continents that inventory will be included from. Leave "
+"set as \"Worldwide\" to include inventory from all warehouse locations."
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:930
+msgid "North America"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:931
+msgid "South America"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:932
+msgid "Europe"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:933
+msgid "Asia"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:934
+msgid "Africa"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:935
+msgid "Australia"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:936
+msgid "Antarctica"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:942
+msgid "Tracking"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:946
+msgid "Automatically Update Tracking"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:947
+msgid "Enable to automatically update tracking information for all orders."
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-admin.php:956
+msgid "Tracking information for all un-shipped orders will update on this interval."
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-log-list-table.php:59
+msgid "Log"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-log-list-table.php:60
+msgid "Logs"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-log-list-table.php:91
+msgid "Date"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-log-list-table.php:92
+msgid "Action Performed"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-log-list-table.php:121
+msgid ""
+"Updates will appear here once inventory or tracking is updated. Use the "
+"buttons above to update inventory or tracking immediately."
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-log-list-table.php:124
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid "%1$sLearn more about updating tracking or inventory%2$s"
+msgstr ""
+
+#: includes/admin/class-wc-shipwire-log-list-table.php:128
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid "%1$sSetup a product to be Shipwire-enabled%2$s"
+msgstr ""
+
+#: includes/api/requests/class-wc-shipwire-api-order-request.php:154
+msgid "Order must be a valid Shipwire order object"
+msgstr ""
+
+#: includes/class-wc-shipwire-cron.php:76
+msgid "Every %d minutes"
+msgstr ""
+
+#: includes/class-wc-shipwire-cron.php:84
+msgid "Every %s minutes"
+msgstr ""
+
+#: includes/class-wc-shipwire-order.php:232
+msgid "Warnings"
+msgstr ""
+
+#: includes/class-wc-shipwire-order.php:248
+msgid "API/HTTP Error"
+msgstr ""
+
+#: includes/class-wc-shipwire-order.php:475
+#. translators: Placeholders: %1$s - old Shipwire order status, %2$s - new
+#. shipwire order status, %3$s - additional order note
+msgid "Shipwire order status changed from %1$s to %2$s. %3$s"
+msgstr ""
+
+#: includes/class-wc-shipwire-product.php:63
+msgid "Inventory Update: item SKU or item inventory is empty."
+msgstr ""
+
+#: includes/emails/class-wc-shipwire-order-exception-email.php:45
+msgid "Shipwire Order Exception"
+msgstr ""
+
+#: includes/emails/class-wc-shipwire-order-exception-email.php:46
+msgid ""
+"Shipwire order exception emails are sent when an order encounters an issue "
+"when exported to Shipwire, such as an invalid address."
+msgstr ""
+
+#: includes/emails/class-wc-shipwire-order-exception-email.php:49
+#. translators: Placeholders: %1$s - order number, %2$s - shipwire status
+msgid "Order %1$s : %2$s"
+msgstr ""
+
+#: includes/emails/class-wc-shipwire-order-exception-email.php:50
+msgid "[%s] Shipwire Order Exception"
+msgstr ""
+
+#: includes/emails/class-wc-shipwire-order-exception-email.php:183
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+
+#: includes/emails/class-wc-shipwire-order-exception-email.php:195
+msgid "Plain text"
+msgstr ""
+
+#: includes/emails/class-wc-shipwire-order-exception-email.php:196
+msgid "HTML"
+msgstr ""
+
+#: includes/emails/class-wc-shipwire-order-exception-email.php:197
+msgid "Multipart"
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:103
+msgid "Provide real-time shipping rates from Shipwire to your customers."
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:237
+#. translators: Placeholders: %1$s - from date, %2$s - to date
+msgid "(Estimated delivery between %1$s and %2$s)"
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:277
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:279
+msgid "Enable this shipping method"
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:284
+msgid "Method availability"
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:289
+msgid "All allowed countries"
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:290
+#: includes/shipping/class-wc-shipwire-shipping-method.php:295
+msgid "Specific Countries"
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:304
+msgid "Tax Status"
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:309
+msgid "Taxable"
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:310
+msgid "None"
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:315
+msgid "Handling Fee"
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:317
+msgid ""
+"Fee excluding tax. Enter an amount, e.g. 2.50, or a percentage, e.g. 5%. "
+"Leave blank to disable."
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:322
+msgid "Additional Handling Fee"
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:324
+msgid ""
+"Enter an additional handling fee, excluding tax, that is applied to each "
+"item in the order after the first item."
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:329
+msgid "Show Delivery Estimates"
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:331
+msgid "Show delivery estimates along with shipping services."
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:336
+msgid "Require Delivery Confirmation"
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:338
+msgid ""
+"Check this to only show rates for services that include delivery "
+"confirmation."
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:343
+msgid "Require Tracking"
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:345
+msgid ""
+"Check this to only show rates for services that include tracking "
+"information."
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:350
+msgid "Show Carrier Name / Service Level"
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:353
+msgid ""
+"Show actual carrier name and service level (e.g. UPS Ground) for methods "
+"instead of generic names (e.g. Ground Shipping)."
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:358
+msgid "GD Service Label"
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:360
+#: includes/shipping/class-wc-shipwire-shipping-method.php:374
+msgid "Label for GD Service."
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:365
+msgid "1D Service Label"
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:367
+msgid "Label for 1D Service."
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:372
+msgid "2D Service Label"
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:379
+msgid "FT Service Label"
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:381
+msgid "Label for FT Service."
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:386
+msgid "E-INTL Service Label"
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:388
+msgid "Label for E-INTL Service."
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:393
+msgid "INTL Service Label"
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:395
+msgid "Label for INTL Service."
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:400
+msgid "PL-INTL Service Label"
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:402
+msgid "Label for PL-INTL Service."
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:407
+msgid "PM-INTL Service Label"
+msgstr ""
+
+#: includes/shipping/class-wc-shipwire-shipping-method.php:409
+msgid "Label for PM-INTL Service."
+msgstr ""
+
+#: includes/webhooks/abstract-wc-shipwire-webhook.php:108
+msgid "Missing signature."
+msgstr ""
+
+#: includes/webhooks/abstract-wc-shipwire-webhook.php:114
+msgid "Invalid hash."
+msgstr ""
+
+#: includes/webhooks/abstract-wc-shipwire-webhook.php:121
+msgid "Invalid resource."
+msgstr ""
+
+#: includes/webhooks/abstract-wc-shipwire-webhook.php:125
+msgid "Invalid data."
+msgstr ""
+
+#: includes/webhooks/class-wc-shipwire-order-webhook.php:73
+#: includes/webhooks/class-wc-shipwire-tracking-webhook.php:69
+msgid "Order %s not found."
+msgstr ""
+
+#: includes/webhooks/class-wc-shipwire-order-webhook.php:79
+msgid "Invalid order."
+msgstr ""
+
+#: includes/webhooks/class-wc-shipwire-stock-webhook.php:75
+msgid "Product SKU %s not found."
+msgstr ""
+
+#: templates/emails/admin-shipwire-order-exception.php:40
+#: templates/emails/plain/admin-shipwire-order-exception.php:37
+#. translators: Placeholders: %1$s - order number, %2$s - shipwire status
+msgid ""
+"Order %1$s encountered an exception during export to Shipwire, order status "
+"changed to %2$s."
+msgstr ""
+
+#: templates/emails/admin-shipwire-order-exception.php:44
+msgid "View this Order"
+msgstr ""
+
+#: templates/emails/plain/admin-shipwire-order-exception.php:39
+msgid "View this order: %s"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Shipwire"
+msgstr ""
+
+#: woocommerce-shipwire.php:351
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: woocommerce-shipwire.php:355
+msgid "You have taken too long, please go back and try again."
+msgstr ""
+
+#: woocommerce-shipwire.php:386
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
+msgid ""
+"Thanks for installing WooCommerce Shipwire! Before getting started, please "
+"%1$sread the documentation%2$s :) "
+msgstr ""
+
+#: woocommerce-shipwire.php:451
+msgid "Shipping Address 1 must be less than 50 characters."
+msgstr ""
+
+#: woocommerce-shipwire.php:455
+msgid "Shipping Address 2 must be less than 50 characters."
+msgstr ""
+
+#: woocommerce-shipwire.php:459
+msgid "Shipping City must be less than 50 characters."
+msgstr ""
+
+#: woocommerce-shipwire.php:466
+msgid "Billing Address 1 must be less than 50 characters."
+msgstr ""
+
+#: woocommerce-shipwire.php:470
+msgid "Billing Address 2 must be less than 50 characters."
+msgstr ""
+
+#: woocommerce-shipwire.php:474
+msgid "Billing City must be less than 50 characters."
+msgstr ""
+
+#: woocommerce-shipwire.php:575 woocommerce-shipwire.php:608
+msgid "Track Shipment #%s"
+msgstr ""
+
+#: woocommerce-shipwire.php:575 woocommerce-shipwire.php:608
+msgid "Track Shipment"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.woothemes.com/products/shipwire/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A full-featured Shipwire integration for WooCommerce, including real-time "
+"shipping rates, automatic order fulfillment processing, and live inventory "
+"/ tracking updates."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WooThemes / SkyVerge"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.woothemes.com"
+msgstr ""

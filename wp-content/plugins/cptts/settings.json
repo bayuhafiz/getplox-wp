@@ -1,0 +1,36 @@
+{
+
+}
+
+/* ================================================================ */
+/* ========================= EXAMPLE CODE ========================= */
+/* ================================================================ */
+
+/*
+{
+	"create_post_type": {
+		"slide": {
+			"slug": "slide",
+			"label_single": "Slide",
+			"label_multi": "Slides",
+			"menu_name": "Slideshows",
+			"hierarchical": false,
+			"supports": [
+				"title",
+				"editor",
+				"thumbnail",
+				"page-attributes",
+				"excerpt"
+			],
+			"tax": [{
+				"slideshow": {
+					"slug": "slideshow",
+					"tax_single": "Slideshow",
+					"tax_multi": "Slideshows",
+					"hierarchical": true
+				}
+			}]
+		}
+	}
+}
+*/

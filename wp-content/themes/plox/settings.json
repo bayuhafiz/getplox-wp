@@ -1,0 +1,174 @@
+{
+
+	"theme_name": "plox",
+
+	"acf_options": {
+		"init": true,
+		"page_title": "Theme Options",
+		"menu_title": "Theme Options",
+		"menu_slug": "theme-options",
+		"subpages": {
+			"subpage_1": {
+				"page_title": "Theme General Settings",
+				"menu_title": "General"
+			},
+			"subpage_2": {
+				"page_title": "Theme Header Settings",
+				"menu_title": "Header"
+			},
+			"subpage_3": {
+				"page_title": "Theme Footer Settings",
+				"menu_title": "Footer"
+			}
+		}
+	},
+
+	"enqueue_style": {
+		"normalize": "css/vendor/normalize.css",
+		"fancy-select-style": "css/vendor/fancySelect.css",
+		"slick": "css/vendor/slick.css",
+		"style": "style.css"
+	},
+
+	"enqueue_script": {
+		"even-columns": "js/vendor/even-columns.js",
+		"fancy-select": "js/vendor/fancySelect.js",
+		"infinite-scroll": "js/vendor/jquery.infinitescroll.js",
+		"slick": "js/vendor/slick.min.js",
+		"script": "js/script.js"
+	},
+
+	"register_nav_menus": {
+		"primary": "Main Navigation",
+		"footer": "Footer Navigation"
+	},
+
+	"theme_widgets_init": {
+		"shopfilters": {
+			"name": "Shop Filters Navigation",
+			"id": "shop_filters_nav"
+		}
+	},
+
+	"enable_thumbnails": true,
+
+	"thumbnails": [
+		[
+			"banner-bg",
+			1275,
+			638,
+			false
+		],
+		[
+			"banner-btn-img",
+			999,
+			36,
+			false
+		],
+		[
+			"promo-item",
+			275,
+			170,
+			false
+		],
+		[
+			"list-item",
+			279,
+			208,
+			false
+		],
+		[
+			"full",
+			1980,
+			1080,
+			true
+		]
+	]
+}
+
+/* ================================================================ */
+/* ========================= EXAMPLE CODE ========================= */
+/* ================================================================ */
+
+/*
+{
+
+	"theme_name" : "plox",
+
+	"acf_options": {
+		"init": true,
+		"page_title": "Theme Options",
+		"menu_title": "Theme Options",
+		"menu_slug": "theme-options",
+		"subpages": {
+			"subpage_1": {
+				"page_title": "Theme General Settings",
+				"menu_title": "General"
+			},
+			"subpage_2": {
+				"page_title": "Theme Header Settings",
+				"menu_title": "Header"
+			},
+			"subpage_3": {
+				"page_title": "Theme Footer Settings",
+				"menu_title": "Footer"
+			}
+		}
+	},
+
+	"register_nav_menus" : {
+		"primary" : "Main Navigation"
+	},
+
+	"enqueue_style": {
+		"style": {
+			"src" : "style.css",
+			"deps": [ ],
+			"ver": "1.0",
+			"media": "all"
+		},
+
+		"simple": "css/simple.css"
+	},
+
+	"enqueue_script": {
+		"script": {
+			"src" : "js/script.js",
+			"deps": [ ],
+			"ver": "1.0",
+			"in_footer": true
+		},
+
+		"simple": "js/simple.js"
+	},
+
+	"theme_widgets_init" : {
+		"Primary" : {
+			"name" : "Primary Widget Area",
+			"id" : "primary_widget_area",
+			"before_widget" : "<div id='%1$s' class='widget %2$s'>",
+			"after_widget" : "</div>",
+			"before_title" : "<h3 class='widget-title'>",
+			"after_title" : "</h3>"
+		}
+	},
+
+	"enable_thumbnails" : true,
+
+	"thumbnails": [
+		[
+			"thumbnail-name-1",
+			800,
+			600,
+			["left", "top"]
+		],
+		[
+			"thumbnail-name-2",
+			400,
+			300,
+			true
+		]
+	]
+
+}
+*/

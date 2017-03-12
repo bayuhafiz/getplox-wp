@@ -1,0 +1,91 @@
+*** WooCommerce Shipwire Changelog ***
+
+2016.08.25 - version 2.0.0
+ * Feature - Implement the Shipwire REST API
+ * Feature - Add support for split shipments
+ * Feature - Support order item serial numbers
+ * Tweak - Include shipment tracking information in the Order Complete email and on the View Order screen
+ * Fix - Fix shipping method availability when specific countries are chosen
+
+2016.08.10 - version 1.6.1
+ * Fix - Fixed API response formatting errors
+
+2016.06.02 - version 1.6.0
+ * Misc - Added support for WooCommerce 2.6
+ * Misc - Removed support for WooCommerce 2.3
+
+2016.04.26 - version 1.5.1
+ * Fix - Ensure virtual orders are not exported to Shipwire
+
+2016.01.13 - version 1.5.0
+ * Fix - Ensure the Shipwire status shows all available statuses with the correct counts
+ * Misc - Added support for WooCommerce 2.5
+ * Misc - Removed support for WooCommerce 2.2
+
+2015.07.28 - version 1.4.0
+ * Tweak - Only display "available shipping rates" notices on the checkout page
+ * Misc - WooCommerce 2.4 Compatibility
+
+2015.04.21 - version 1.3.3
+ * Fix - Escape all instances of add_query_arg and remove_query_arg to avoid a potential XSS attack
+
+2015.04.21 - version 1.3.2
+ * Fix - Potential XSS with add_query_arg
+
+2015.03.26 - version 1.3.1
+ * Tweak - Attach Chosen.js to form fields only if Select2 is not available
+
+2015.02.09 - version 1.3.0
+ * Misc - WooCommerce 2.3 Compatibility
+
+2015.01.20 - version 1.2.4
+ * Fix - Fix an issue with inventory updating for out of stock variations
+ * Fix - Ensure the Shipwire password is not saved in plaintext in the log file
+
+2014.10.06 - version 1.2.3
+ * Tweak - Add a day to expedited delivery estimates to better manage customer expectations
+ * Fix - Fix issue when certain expedited shipping methods were not set correctly during export
+
+2014.09.07 - version 1.2.2
+ * Misc - WooCommerce 2.2 Compatibility
+
+2014.08.19 - version 1.2.1
+ * Tweak - Shipping requests during checkout now include Address and City if provided for more accurate shipping quotes
+ * Fix - Fix issue with inventory updates for Shipwire SKUs that don't have a matching product
+
+2014.07.14 - versions 1.2
+ * Feature - You can now limit inventory to warehouses on specific continents
+ * Fix - Fix issue with inventory updates not including all products
+
+2014.04.25 - version 1.1.1
+ * Fix - Fix issue where expedited shipping methods were not correctly set for exported orders
+
+2014.01.20 - version 1.1
+ * Feature - You can now combine Shipwire-managed products with virtual products for both shipping rates and order export
+ * Tweak - Carrier-specific shipping codes are now used instead of generic codes to ensure the shipping method selected by the customer at checkout is how Shipwire ships the order
+ * Tweak - Improved order exception emails
+ * Misc - Internal refactoring to improve stability and performance
+ * Misc - WooCommerce 2.1 compatibility
+ * Misc - Uses SkyVerge Plugin Framework
+ * Localization - Text domain changed from `wc-shipwire` to `woocommerce-shipwire`
+
+2013.11.09 - version 1.0.5
+ * Fix - Fixed issue with tracking updates occasionally failing
+
+2013.10.18 - version 1.0.4
+ * Tweak - Sequential Order Numbers Pro is now fully supported
+
+2013.09.06 - version 1.0.3
+ * Fix - Fixed strict standards notice with WordPress 3.6
+
+2013.08.23 - version 1.0.2
+ * Misc - New actions and filters for customizing the plugin
+
+2013.05.17 - version 1.0.1
+ * Feature - Automatic order exports can now be disabled for specific countries
+ * Feature - You can now enter an additional shipping handling fee which will be added to each item in the order past the first item
+ * Tweak - Include currency in Shipping rate requests so returned rates match the currency set in WooCommerce
+ * Misc - Lots of new actions and filters added to help you customize the plugin to meet your needs, read the docs to learn more :)
+
+2013.04.18 - version 1.0
+ * Initial Release
